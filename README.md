@@ -16,6 +16,9 @@ You have already installed and properly configured:
 2. Log into Cloud Manager and choose your organization - creating one if needed.
 3. Create a new Cloud Manager Deployment
 3. Click the "Build New" button on Deployment page (below)
-![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-1.png "Logo Title Text 1")
+![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-1.png "Build New Image")
+4. One the following page ("Where would you like to deploy MongoDB?"), select "Deploy in other remote" button (below).
+![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-2.png "Deploy in other remote image")
+
 
  
