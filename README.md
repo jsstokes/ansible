@@ -1,4 +1,4 @@
-# anisble-CM
+# ansible-CM
 This repository has Anisble scripts, etc needed to configure a MongoDB Cloud Manager demo in AWS EC2
 
 
@@ -24,6 +24,16 @@ You have already installed and properly configured:
 5. Enter the values for Replica Set Name, Number of Nodes, and Data Directory Prefix.
   * __Make note of these values, you will need them later!!__
 ![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-4.png "Replica Set Details")
+6. Choose whether or not you want backups made of this Replica Set.
+7. On the next page ("Install an Automation Agent on each server"), select the appropriate value from the "Install Agent List".
+![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-5.png "Install Agent image")
+8. A popup will appear with instruction to configure the replica set member.  The anisble scripts will perform all of the configuration steps on each member.  Please make note of the mmsGroupId (see screen shot below), then click the "Agent API Keys" link.
+![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-6.png "Automation Agent Popup")
+
+# Creating the Agent API Key
+1. After following the instructions in the above section, you should be at the Agent API Page.
+
+
 
 
  
