@@ -23,6 +23,7 @@ You have already installed and properly configured:
 ![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-3.png "Create Replica Set")
 5. Enter the values for Replica Set Name, Number of Nodes, and Data Directory Prefix.
 5.1. Make note of these values, you will need them later!!
+![alt text](https://github.com/jsstokes/ansible/blob/master/Screen-4.png "Replica Set Details")
 
 
  
