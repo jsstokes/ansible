@@ -1,0 +1,14 @@
+[local]
+127.0.0.1
+
+[demo]
+ec2-34-239-133-107.compute-1.amazonaws.com
+ec2-54-162-253-5.compute-1.amazonaws.com
+ec2-34-238-118-152.compute-1.amazonaws.com
+
+[demo:vars]
+conn_string=demoRS/ec2-34-239-133-107.compute-1.amazonaws.com:27000,ec2-54-162-253-5.compute-1.amazonaws.com:27000,ec2-34-238-118-152.compute-1.amazonaws.com:27000
+
+
+api_key=5a9c9aa1d383ad78d78dc1b986b12f3a3515fed5742c8f3616623da2
+mmsGroupId=5a9c99714e65813c414f687b
